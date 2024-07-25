@@ -1,4 +1,6 @@
+import { Location } from "./location.interface";
+
 export interface UnitsResponse {
-  current_id: number,
-  location: Location[]
+  current_country_id: number,
+  locations: Location[]
 }
